@@ -1,0 +1,36 @@
+/*=====Support Chrome 18.0.1025.2 (currently Canary)=====*/
+body{
+  background:#111;
+}
+div#player{ 
+  border: 2px solid red;
+  border-radius:20px;
+  width:300px; 
+  height:30px; 
+  background:#000; 
+  padding:5px; 
+  margin: auto;
+  position: absolute;
+  top: 10px; left: 10px; 
+  z-index: 2;
+  opacity: 0.5;
+}
+div#player:hover{ 
+  opacity: 1;
+}
+div#player > div > audio{
+  width:300px; 
+  background:#000; 
+}
+canvas{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; 
+  bottom: 0; right: 0;
+  width:auto; 
+  height:auto; 
+}
+#song {
+  color:red;
+  width:100%; 
+}
